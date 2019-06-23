@@ -227,20 +227,26 @@ input[type=submit] {
 
 @media screen and (max-width: 980px){
   #contact-form ul {
-    margin-bottom: -5px;
+    margin-bottom: 0px;
     list-style-type: none;
   }
   
   #contact-form li {
-    margin-bottom: 0px;
+    margin: 0px 0px 10px -40px;
     list-style-type: none;
   }
   .container {
     width: 650px;
     height: 0px;
     max-width: 960px;
-    margin: 30px 30px 30px 0px;
+    margin: 0px 30px 30px 0px;
     clear: both;
+  }
+  .container1 {
+    width: 70%;
+    max-width: 960px;
+    margin: 0px 0px 30px 21px;
+    
   }
   #masthead {
     position: fixed;
@@ -264,7 +270,7 @@ input[type=submit] {
     text-align: center;
     text-decoration: none;
     background: #4aaaa5;
-    margin: 0px 0px 0px 30px;
+    margin: 20px 0px 0px 30px;
   }
   nav a {
     display: inline-block;
@@ -277,18 +283,42 @@ input[type=submit] {
   }
   nav {
     float: right;
-    margin: 30px 40px 10px 0px;
+    margin: 50px -260px 10px 20px;
+  }
+  .work img {
+    width: 85%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  .work h3 {
+    position: absolute;
+    bottom: 20px;
+    width: 85%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
   }
 }
 @media screen and (max-width: 768px){
   #main-container {
-    padding-top: 60px;
+    padding-top: 100px;
   }
   .container {
     width: 700px;
     height: 5px;
     max-width: 960px;
     margin: 0px 0px 20px 10px;
+    clear: both;
+  }
+  .container1 {
+    width: 100%;
+    max-width: 960px;
+    margin: 0px 0px 0px 0px;
     clear: both;
   }
   #masthead {
@@ -322,7 +352,7 @@ input[type=submit] {
     margin: 25px 40px 10px 0px;
   }
   .work img {
-    width: 200px;
+    width: 250px;
     height: 200px;
     border: 0 none;
     opacity: 0.8;
@@ -406,6 +436,12 @@ input[type=submit] {
     margin: 0 auto;
     clear: both;
   }
+  .container1 {
+    width: 100%;
+    max-width: 960px;
+    margin-top: 15px;
+  }
+  
   nav {   
     margin: 25px 180px 10px 20px;
   }
@@ -447,7 +483,7 @@ input[type=submit] {
     border-bottom: 0;
   }
   #contact-form ul {
-    margin-bottom: -5px;
+    margin-bottom: 0px;
     list-style-type: none;
   }
   
@@ -455,3 +491,4 @@ input[type=submit] {
     margin-bottom: 0px;
     list-style-type: none;
   }
+}
