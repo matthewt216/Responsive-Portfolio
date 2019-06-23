@@ -404,6 +404,13 @@ input[type=submit] {
     font-size: 14px;
     border: 1px solid #dddddd;
   }
+  input[type=message],
+  textarea {
+    height: 100px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+  }
     }
 @media screen and (max-width: 640px){
   #logo {
@@ -490,5 +497,12 @@ input[type=submit] {
   #contact-form li {
     margin-bottom: 0px;
     list-style-type: none;
+  }
+  input[type=message],
+  textarea {
+    height: 100px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
   }
 }
